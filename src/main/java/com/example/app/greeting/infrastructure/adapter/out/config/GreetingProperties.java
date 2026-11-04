@@ -9,4 +9,4 @@ import org.springframework.validation.annotation.Validated;
 @ConfigurationProperties(prefix = "app.greeting")
 public record GreetingProperties(
         @NotBlank @Pattern(regexp = "^[^%]*%s[^%]*$", message = "must contain exactly one %s placeholder")
-                String template) {}
+        String template) {}
