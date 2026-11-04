@@ -23,8 +23,8 @@
 
         <!-- Test & quality tooling -->
         <archunit.version>1.5.1</archunit.version>
-        <jacoco.version>0.8.15</jacoco.version>
-        <spotless.version>2.46.1</spotless.version>
+        <jacoco.version>0.8.16</jacoco.version>
+        <spotless.version>3.10.4</spotless.version>
 
         <!-- Coverage gate (applied to merged unit + integration coverage) -->
         <jacoco.line.minimum>0.80</jacoco.line.minimum>
